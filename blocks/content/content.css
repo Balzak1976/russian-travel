@@ -1,0 +1,14 @@
+.content {
+  padding-top: 56px;
+  padding-bottom: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    padding-top: 48px;
+  }
+}

@@ -1,0 +1,12 @@
+.header {
+  width: calc(100% - (48px * 2));
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: calc(100% - (24px * 2));
+  }
+}
