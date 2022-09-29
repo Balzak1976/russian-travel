@@ -7,8 +7,20 @@
   gap: 92px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   .content {
     padding-top: 48px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .content {
+    gap: 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content {
+    gap: 64px;
   }
 }

@@ -4,19 +4,19 @@
   object-position: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   .photo-grid__image {
     max-width: 300px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .photo-grid__image {
     max-width: 352px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .photo-grid__image {
     max-width: 288px;
   }

@@ -1,17 +1,30 @@
 .place__image {
+  justify-self: center;
   max-width: 460px;
   object-fit: cover;
   object-position: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   .place__image {
     max-width: 440px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 969px) {
+  .place__image {
+    max-width: 380px;
+  }
+}
+
+@media screen and (max-width: 769px) {
   .place__image {
     max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__image {
+    max-width: 320px;
   }
 }

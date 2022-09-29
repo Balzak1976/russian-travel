@@ -1,0 +1,11 @@
+.place__main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+@media screen and (max-width: 425px) {
+  .place__main-text {
+    padding: 0 16px 0;
+  }
+}
