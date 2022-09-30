@@ -1,0 +1,27 @@
+.photo-grid__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+@media screen and (max-width: 1025px) {
+  .photo-grid__list {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .photo-grid__list {
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .photo-grid__list {
+    gap: 12px;
+  }
+}
