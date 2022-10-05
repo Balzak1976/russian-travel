@@ -5,26 +5,21 @@
   object-position: center;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1270px) {
   .place__image {
     max-width: 440px;
   }
 }
 
-@media screen and (max-width: 969px) {
-  .place__image {
-    max-width: 380px;
-  }
-}
-
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1023px) {
   .place__image {
     max-width: 340px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .place__image {
-    max-width: 320px;
+    max-width: 460px;
+    width: 100%;
   }
 }

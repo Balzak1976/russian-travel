@@ -4,20 +4,20 @@
   max-width: 690px;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1270px) {
   .intro {
     padding-left: 48px;
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1023px) {
   .intro {
     padding-left: 24px;
     padding-right: 24px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .intro {
     padding-left: 16px;
     padding-right: 16px;

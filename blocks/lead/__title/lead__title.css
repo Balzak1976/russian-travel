@@ -7,22 +7,10 @@
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-  .lead__title {
-    font-size: 70px;
-    line-height: 1.1;
-    margin-bottom: 16px;
-  }
-}
-
-@media screen and (max-width: 610px) {
-  .lead__title {
-    font-size: 50px;
-  }
-}
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .lead__title {
     font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 16px;
   }
 }

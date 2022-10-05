@@ -7,20 +7,22 @@
   gap: 92px;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1270px) {
   .content {
     padding-top: 48px;
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1023px) {
   .content {
     gap: 88px;
+    padding-bottom: 88px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .content {
     gap: 64px;
+    padding-bottom: 64px;
   }
 }

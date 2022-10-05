@@ -8,19 +8,19 @@
   gap: 16px;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1270px) {
   .photo-grid__list {
     gap: 14px;
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1023px) {
   .photo-grid__list {
     gap: 16px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .photo-grid__list {
     gap: 12px;
   }
